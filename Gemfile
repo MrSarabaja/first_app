@@ -15,6 +15,7 @@ end
 gem 'sass-rails', '4.0.5'
 gem 'uglifier', '2.7.1'
 gem 'coffee-rails', '4.0.1'
+gem 'therubyracer',  platforms: :ruby
 gem 'jquery-rails', '3.1.3'
 gem 'turbolinks', '2.5.3'
 gem 'jbuilder', '2.3.1'
@@ -25,8 +26,10 @@ gem 'jbuilder', '2.3.1'
 # gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 # gem 'coffee-rails', '~> 4.0.0'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
+
 # Use jquery as the JavaScript library
 # gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
